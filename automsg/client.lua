@@ -5,7 +5,7 @@
                                                                                          
 
 local m = {}
-m.delay = 10
+m.delay = 10 -- Ændre her hvor tit beskerne skal komme ((minutter) default er 10 min.)
 
 m.prefix = '^1[Min RP Server] ' -- Skift dit prefix her
 m.suffix = ''
@@ -24,7 +24,7 @@ m.ignorelist = {
 
 local playerIdentifiers
 local enableMessages = true
-local timeout = m.delay * 600 * 60 -- Ændre her hvor tit beskerne skal komme
+local timeout = m.delay * 600 * 60 
 local playerOnIgnoreList = false
 RegisterNetEvent('va:setPlayerIdentifiers')
 AddEventHandler('va:setPlayerIdentifiers', function(identifiers)
