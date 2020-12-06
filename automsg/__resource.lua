@@ -1,12 +1,9 @@
-# Peps-Workshop
-
 -- |  \  |  _)                      __ )            |       |  |      _ \     _ \     _ \   _ | 
 -- |   \ |   |    __|    _ \        __ \     _` |   __|  _  |_ |_|   |   |   |   |   |   |    | 
 -- | |\  |   |   (      (   |       |   |   (   |   |    _  |_ |_|   |   |   |   |   |   |    | 
 -- |_| \_|  _|  \___|  \___/   _)  ____/   \__,_|  \__|    _| _|    \___/   \___/   \___/    _| 
- 
-Her vil du kunne finde nogle ting til vRP!
-Der vil komme mere og mere med tiden, husk og følg med! ;)
 
-Support: https://fivem.dk/discord
 
+resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+client_script "client.lua"
+server_script "server.lua"
